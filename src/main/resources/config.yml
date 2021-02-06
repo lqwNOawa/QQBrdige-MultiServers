@@ -1,0 +1,42 @@
+MessageGroup: 1101633263
+
+CmdGroups:
+  - 1101633263
+  - 1067898460
+  
+qq: 2982561372
+
+admins:
+  - 1927241971
+  
+URI: '127.0.0.1:8080'
+
+authKey: "JLjl123123"
+
+autoReconnect: true
+interval: 5
+
+serverAlias:
+  lobby: '大厅'
+
+GameMessage:
+  prefix: "&6[&a群服互通&6] "
+  log_cmd: "&6QQ用户:&b%user% &6执行命令 &a%cmd%"
+  connected: "&6WebSocket服务器连接成功"
+  connection_lost: "&6WebSocket服务器连接丢失 : &c%Reason%&"
+  connection_reconnect: "&6将在 %time%秒 后尝试重新连接"
+  connection_err: "&6WebSocket连接出现错误: &c%exception%"
+  sessionKey_got: "&6成功获得sessionKey: &a%sessionKey%"
+  sessionKey_verified: "&6sessionKey验证成功"
+  sessionKey_release: "&6正在释放sessionKey"
+  sessionKey_release_completed: "&6sessionKey释放成功"
+  error: "插件出现错误: %exception%"
+  bind:
+    - "&6QQ群[&b%group%&6] 中用户[&b%user%&6] 请求与当前账号绑定"
+    - "&6若您明白自己在做什么并确认绑定，请输入指令 &c/qq bind %user% &6完成绑定"
+    - "&6若非本人操作请忽略此消息"
+GroupMessage:
+  turned_on: "%server% 服务器聊天信息已在本群开启"
+  turned_off: "%server% 服务器聊天信息已在本群关闭"
+
+debug: true

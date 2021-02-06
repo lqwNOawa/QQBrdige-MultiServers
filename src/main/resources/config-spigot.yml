@@ -1,0 +1,12 @@
+QQBridgeEnabled: true
+deathMessage: true
+# 支持PlaceHolderAPI
+GameFormat: "[%server%][%multiverse_world_alias%][%luckperms_prefix%]: %message%"
+# 插件变量: %senderName% - 发送者名称
+# %senderId% - 发送者qq号
+# %groupName% - 发送群名
+# %groupId% - 发送群号
+# %message% - 接收的信息
+# 支持PlaceHolderAPI变量.
+GroupFormat: "&6[&a&l群服互通&6] &b%senderName%:&r %message%"
+debug: true

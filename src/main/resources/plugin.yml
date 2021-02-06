@@ -1,0 +1,12 @@
+name: QQBrdige-MultiServers
+version: @version@
+main: me.luoqiwen.minecraft.plugin.qqbrdigemultiservers.SpigotMain
+api-version: 1.16
+softdepend: [ PlaceholderAPI ]
+authors: [ luoqiwen ]
+description: QQBrdige for MultiServers
+commands:
+  qq:
+    usage: '§c请使用 §a/qq §6<§a参数§5>'
+    description: 插件主命令
+    permission: qqbridge.use

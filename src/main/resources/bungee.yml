@@ -1,0 +1,4 @@
+name: QQBrdige-MultiServers
+main: me.luoqiwen.minecraft.plugin.qqbrdigemultiservers.BungeeCordMain
+version: @version@
+author: luoqiwen
